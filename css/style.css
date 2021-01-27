@@ -1,0 +1,82 @@
+
+/*font-family: 'Lato', sans-serif;*/
+
+/*font-family: 'Dosis', sans-serif;*/
+
+/*font-family: 'Sniglet', cursive;*/
+
+/*commmon start*/
+body{
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #333333;
+}
+/*common end*/
+
+/*header start*/
+header{
+	background-color: #ffd338;
+}
+.nav_t_c{
+	color: rgb(240 92 92)!important;
+    border-color: rgb(240 92 92)!important;
+}
+.nav_t_c:focus{
+	color: rgb(240 92 92);
+    border-color: rgb(240 92 92);
+}
+
+.menu ul li a{
+	font-size: 18px;
+	font-weight: 700;
+	color: white !important;
+	padding: 2px 22px !important;
+	border-radius: 15px;
+
+}
+.menu ul li a:hover{
+	background-color: #f05c5c;
+}
+
+/*user and search css*/
+.d_user{
+	
+}
+.d_user_a, .d_search_a{
+	color:white;
+}
+
+.d_user_a:hover, .d_search_a:hover{
+	color:#f05c5c;
+}
+
+.d_user_a:focus, .d_search_a:focus{
+	outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(216 92 92/25%) !important;
+}
+
+.d_user_ul, .d_search_ul{
+	background-color: #ffd338;
+}
+.d_user_ul{
+	top: 159%;
+    left: -103px;
+}
+.d_search_ul{
+	top: 159%;
+    left: -287px;
+    min-width: 350px;
+    padding: 7px;
+}
+
+.col2_custom {
+    padding: 4px 9px;
+}
+/*header end*/
+
+.h1_custom{
+	text-shadow:2px 2px yellow;
+    padding: 70px 0;
+    text-align: center;
+}
